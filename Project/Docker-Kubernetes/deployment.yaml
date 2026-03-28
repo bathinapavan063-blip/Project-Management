@@ -14,7 +14,7 @@ spec:
   spec:
    containers:
    - name: my-app-container
-     image: docker.io/goudsagar/aks-webapp:latest
+     image: docker.io/bathina063/aks-webapp:latest
      imagePullPolicy: IfNotPresent
      ports:
      - containerPort: 8080
